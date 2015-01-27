@@ -1,4 +1,4 @@
-FROM java:7
+FROM dockerfile/java:oracle-java8
 MAINTAINER Ben Navetta <ben.navetta@gmail.com>
 
 RUN apt-get update && apt-get install -y curl
